@@ -12,3 +12,12 @@ function Decrease(){
 }
 
 decrease.addEventListener('click',function(){Decrease()});
+
+let resetBtn = document.querySelector(".reset");
+
+function reset(){
+  //  console.log("reset");
+  counter.textContent = 0;
+}
+
+resetBtn.addEventListener("click",function(){reset()});
