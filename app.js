@@ -21,3 +21,13 @@ function reset(){
 }
 
 resetBtn.addEventListener("click",function(){reset()});
+
+let increaseBtn =  document.querySelector(".increase");
+
+function Increase(){
+     
+    counter.textContent = ++counter.textContent;
+
+}
+
+increaseBtn.addEventListener("click", function(){ Increase() });
